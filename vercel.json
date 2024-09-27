@@ -1,0 +1,24 @@
+{
+    "routes": [
+        {
+            "src": "/json/stats.json",
+            "dest": "http://101.44.163.126:8080/json/stats.json"
+        },
+        {
+            "src": "/detail",
+            "dest": "http://101.44.163.126:8080/detail"
+        },
+        {
+            "src": "/map",
+            "dest": "http://101.44.163.126:8080/map"
+        },
+        {
+            "src": "/i",
+            "dest": "http://101.44.163.126:8080/i"
+        },
+        {
+            "src": "/report",
+            "dest": "http://101.44.163.126:8080/report"
+        }
+    ]
+}
